@@ -1,0 +1,11 @@
+{
+  "name": "jevtactics-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env backend/server.mjs",
+    "test": "node --test backend/server.test.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "ai": "7.0.107" }
+}

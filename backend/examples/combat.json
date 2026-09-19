@@ -1,0 +1,16 @@
+{
+  "state": { "unit": { "hp": 8, "maxHp": 100 }, "nearbyEnemies": 3 },
+  "questions": {
+    "retreat": { "type": "boolean", "instructions": "Should this unit retreat to survive?" },
+    "action": {
+      "type": "choice",
+      "instructions": "Choose the safest next action.",
+      "criteria": { "attack": "Fight nearby enemies", "retreat": "Move away from enemies", "heal": "Use a healing item if available" }
+    },
+    "danger": {
+      "type": "score",
+      "instructions": "Rate the danger to the unit.",
+      "criteria": ["safe", "threatened", "critical"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+/.env
+/.env.*
+!/.env.example
+!/.env.sample
+/node_modules/
+/build/
+/cmake-build-*/
+/CMakeUserPresets.json
+.DS_Store

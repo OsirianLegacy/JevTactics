@@ -1,0 +1,11 @@
+{
+  "state": { "speaker": "merchant", "message": "Bring me three healing herbs and I will give you a sword." },
+  "questions": {
+    "questOffer": { "type": "boolean", "instructions": "Is the speaker offering a quest?" },
+    "intent": {
+      "type": "choice",
+      "instructions": "Classify the speaker's intent.",
+      "criteria": { "trade": "Offering goods for money", "quest": "Offering a reward for a task", "greeting": "Starting a friendly conversation" }
+    }
+  }
+}
